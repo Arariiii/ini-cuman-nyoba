@@ -1,0 +1,19 @@
+package tutorial;
+
+public class Variableanddatatypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ini varable
+int int_itu_angka = 5;
+double double_itu_angka_berkoma = 1.1;
+boolean boolean_itu_true_or_false = true;
+char char_itu_huruf = '9';
+
+System.out.println(int_itu_angka);
+System.out.println(double_itu_angka_berkoma);
+System.out.println(boolean_itu_true_or_false);
+System.out.println(char_itu_huruf)
+	}
+
+}

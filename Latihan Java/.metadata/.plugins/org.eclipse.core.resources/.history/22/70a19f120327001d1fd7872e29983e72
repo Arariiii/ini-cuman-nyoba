@@ -1,0 +1,19 @@
+package tutorial;
+import java.util.Scanner;
+
+public class ConditionandBooleans {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 6;
+		int y = 7;
+		int z = 10;
+		
+		//> < == >= <= !=
+		boolean perbandingan = x != y;
+		
+		System.out.println(perbandingan);
+		
+	}
+
+}

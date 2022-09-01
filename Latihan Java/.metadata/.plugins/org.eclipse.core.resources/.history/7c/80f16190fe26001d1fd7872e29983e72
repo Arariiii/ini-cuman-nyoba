@@ -1,0 +1,23 @@
+package tutorial;
+
+public class BasicOperation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int x;
+x = 6;
+
+int y = 58;
+
+int z = 3;
+
+int sum = x + y;
+int min = x - y;
+int multiple = x * y;
+int bagi = y / x;
+int banyak = x * y - z;
+
+System.out.println(banyak);
+	}
+
+}

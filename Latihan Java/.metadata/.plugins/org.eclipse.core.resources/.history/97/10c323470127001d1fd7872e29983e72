@@ -1,0 +1,14 @@
+package tutorial;
+import java.util.Scanner;
+
+public class inputandscanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String scanned = sc.next();
+		
+		System.out.println(scanned);
+	}
+
+}

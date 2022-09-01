@@ -1,0 +1,14 @@
+package tutorial;
+
+public class Variableanddatatypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ini varable
+int hello_world = 5;
+float hello_wolrd1 = 1.1;
+System.out.println(hello_world);
+System.out.println(hello_wolrd1);
+	}
+
+}

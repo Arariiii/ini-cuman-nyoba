@@ -1,0 +1,22 @@
+package tutorial;
+import java.util.Scanner;
+
+public class ConditionandBooleans {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 6;
+		int y = 7;
+		int z = 10;
+		String a = "hello world";
+		String b = "kaga sama";
+		
+		//> < ==(sama dengan) >=(lebih besar sama dengan) <=(lebih kecil sama dengan) !=(tidak sama)
+		boolean perbandingan = x == y;
+		boolean banding = a == b;
+		System.out.println(perbandingan);
+		System.out.println(banding);
+		
+	}
+
+}

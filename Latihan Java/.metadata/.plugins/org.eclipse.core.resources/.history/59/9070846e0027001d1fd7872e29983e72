@@ -1,0 +1,35 @@
+package tutorial;
+
+public class BasicOperation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int x;
+x = 6;
+int y = 55;
+int z = 3;
+
+int sum = x + y;
+int min = x - y;
+int multiple = x * y;
+int bagi = y / x;
+int banyak = x * y - z;
+int lebihbanyak = (x - z) * y;
+double kuadrat = Math.pow(x, z);
+
+//pembagian pake koma
+double a = 3;
+double b = 7;
+
+double c = b / a;
+
+//konvert hasil pembagian int biar jadi koma
+double konvert = y / (double)x;
+
+System.out.println(lebihbanyak);
+System.out.println(c);
+System.out.println(kuadrat);
+System.out.println(konvert);
+	}
+
+}

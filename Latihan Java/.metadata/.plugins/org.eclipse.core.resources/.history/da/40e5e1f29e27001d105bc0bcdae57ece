@@ -1,0 +1,19 @@
+package tutorial;
+import java.util.Scanner;
+
+public class IF {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		
+		//equals = jika s.sama dengan("isinya")
+		if (s.equals("tim")) {
+			System.out.println("you Typed Tim");
+			System.out.println("Print");
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package tutorial;
+import jave.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//bikin array
+		String[] newArr = new String[5];
+		newArr[0] = "ari";
+		newArr[1] = "doddi";
+		newArr[2] = "amri";
+		newArr[3] = "napri";
+		
+		String x = newArr[1];
+		System.out.println(x);
+	}
+
+}

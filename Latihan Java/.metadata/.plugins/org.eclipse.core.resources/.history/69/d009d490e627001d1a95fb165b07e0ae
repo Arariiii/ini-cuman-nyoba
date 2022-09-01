@@ -1,0 +1,22 @@
+package tutorial;
+import java.util.Scanner;
+
+public class WhileLoops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		//you can do everything in for loops in while loops
+		
+		System.out.print("Type a number: ");
+		int x = sc.nextInt();
+		
+		while (x != 10) {
+			System.out.println("Type 10....");
+			System.out.print("Type a number: ");
+			x = sc.nextInt();
+		}
+	}
+
+}

@@ -1,3 +1,5 @@
+import kotlin.math.pow
+
 fun main() {
     print("[1] Menghitung kecepatan \n[2] Menghitung luas segitiga \n[3] Menghitung luas balok \n[4] Menghitung luas lingkaran \n\n[0] Close Program")
 
@@ -10,10 +12,9 @@ fun main() {
             segitiga()
         } else if (pilihan == 3) {
             balok()
-        } else if (pilihan == 4){
+        } else if (pilihan == 4) {
             lingkaran()
-        }
-        else if (pilihan == 0) {
+        } else if (pilihan == 0) {
             print("Terima kasih!")
             break
         } else {
@@ -54,7 +55,7 @@ fun balok() {
 fun lingkaran() {
     print("Masukan jari - jari: ")
     val jari = readLine()!!.toDouble()
-    val r2 = Math.pow(jari, 2.0)
+    val r2 = jari.pow(2.0)
     val luaslingkaran = 3.17 * r2
     print("\n\n\n\n\n\nJAWABAN: 3.17 x $r2 = $luaslingkaran")
 }

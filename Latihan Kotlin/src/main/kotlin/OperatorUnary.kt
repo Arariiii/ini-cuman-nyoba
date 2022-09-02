@@ -1,13 +1,11 @@
 fun main() {
 
     val a = 1
-    val b: Boolean = true
-    var c = 1
-    val result: Int
+    val b = true
+    var c = 6
 
     //out
-    result = -a
-    println("-a = " +(-a))
+    println("-a = " + (-a))
     println("!b = " + (!b))
     println("--c = " + (--c))
 
